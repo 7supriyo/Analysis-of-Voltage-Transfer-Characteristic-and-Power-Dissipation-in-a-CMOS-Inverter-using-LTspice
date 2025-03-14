@@ -5,6 +5,8 @@ This project focuses on analyzing the **Voltage Transfer Characteristic (VTC)** 
 1. Simulating the VTC curve to study the input-output relationship.
 2. Analyzing static and dynamic power dissipation.
 3. Using Level 3 SPICE models for NMOS and PMOS transistors.
+![Screenshot 2025-03-14 234303](https://github.com/user-attachments/assets/708a102b-2142-4c10-97f1-1b582866e0d3)
+
 
 ---
 
@@ -73,10 +75,13 @@ The CMOS inverter circuit is designed using the following components:
 The VTC curve shows the relationship between \(V_{in}\) and \(V_{out}\). Key observations include:
 - **Transition Region**: The region where both NMOS and PMOS transistors are partially ON.
 - **Noise Margins**: \(NM_L\) and \(NM_H\) are calculated from the VTC curve.
+  ![Screenshot 2025-03-14 234351](https://github.com/user-attachments/assets/94500622-5302-4074-8cb0-5b1783097b32)
+
 
 ### Power Dissipation
 - **Static Power**: Measured when the input is stable (either HIGH or LOW).
 - **Dynamic Power**: Measured during switching, including switching power and short-circuit power.
+![Screenshot 2025-03-14 234439](https://github.com/user-attachments/assets/85035ef5-21c7-4102-af07-58c10cff98f3)
 
 ---
 
